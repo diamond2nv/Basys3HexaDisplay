@@ -8,7 +8,7 @@ module display(in_val, clk, in_dot, seg, an, dp);
     output reg dp;
     output reg [3:0] an;
 
-    reg [7:0] count;
+    reg [17:0] count;
     reg [3:0] digit;
 
     always @(posedge clk)
